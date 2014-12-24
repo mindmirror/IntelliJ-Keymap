@@ -117,6 +117,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="control SLASH" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control D" />
+  </action>
   <action id="EditorTab" />
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -161,6 +164,9 @@
   <action id="HippieCompletion">
     <keyboard-shortcut first-keystroke="meta SLASH" />
   </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control I" />
+  </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control O" />
   </action>
@@ -170,6 +176,9 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="F10" />
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control R" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control G" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
@@ -215,5 +224,14 @@
   </action>
   <action id="ToggleBookmark9">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift control 9" />
+  </action>
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control H" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control V" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="control M" />
   </action>
 </keymap>

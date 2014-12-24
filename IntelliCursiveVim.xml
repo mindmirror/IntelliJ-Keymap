@@ -167,6 +167,9 @@
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control I" />
   </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta BACK_SPACE" />
+  </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control O" />
   </action>
@@ -179,6 +182,9 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control G" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralReplaceAction">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta M" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />

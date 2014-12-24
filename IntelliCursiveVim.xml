@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X 10.5+ Cursive" parent="Mac OS X 10.5+">
+<keymap version="1" name="Intelli Cursive Vim" parent="Mac OS X 10.5+">
   <action id=":plugin.actions.paredit/backward">
     <keyboard-shortcut first-keystroke="alt LEFT" />
   </action>

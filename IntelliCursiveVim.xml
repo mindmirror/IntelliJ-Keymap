@@ -108,7 +108,7 @@
   </action>
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="control SEMICOLON" />
-    <keyboard-shortcut first-keystroke="control COMMA" />
+    <keyboard-shortcut first-keystroke="control COMMA" second-keystroke="control COMMA" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt DIVIDE" />
@@ -117,8 +117,14 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="control SLASH" />
   </action>
+  <action id="Console.History.Browse">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="meta alt E" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control D" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="F4" />
   </action>
   <action id="EditorTab" />
   <action id="EmacsStyleIndent">
@@ -167,6 +173,9 @@
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control I" />
   </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="meta alt V" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta BACK_SPACE" />
   </action>
@@ -182,6 +191,9 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control G" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt HOME" />
   </action>
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta M" />

@@ -3,10 +3,10 @@
     <keyboard-shortcut first-keystroke="alt LEFT" />
   </action>
   <action id=":plugin.actions.paredit/backward-down">
-    <keyboard-shortcut first-keystroke="control alt P" />
+    <keyboard-shortcut first-keystroke="control meta M" />
   </action>
   <action id=":plugin.actions.paredit/backward-up">
-    <keyboard-shortcut first-keystroke="control alt U" />
+    <keyboard-shortcut first-keystroke="control meta U" />
   </action>
   <action id=":plugin.actions.paredit/barf-backwards">
     <keyboard-shortcut first-keystroke="shift control OPEN_BRACKET" />
@@ -32,10 +32,10 @@
     <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
   <action id=":plugin.actions.paredit/forward-down">
-    <keyboard-shortcut first-keystroke="control alt D" />
+    <keyboard-shortcut first-keystroke="control meta L" />
   </action>
   <action id=":plugin.actions.paredit/forward-up">
-    <keyboard-shortcut first-keystroke="control alt N" />
+    <keyboard-shortcut first-keystroke="control meta N" />
   </action>
   <action id=":plugin.actions.paredit/join">
     <keyboard-shortcut first-keystroke="control meta S" />
@@ -110,6 +110,14 @@
     <keyboard-shortcut first-keystroke="control SEMICOLON" />
     <keyboard-shortcut first-keystroke="control COMMA" second-keystroke="control COMMA" />
   </action>
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="control alt D" />
+    <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="control alt R" />
+    <keyboard-shortcut first-keystroke="shift F9" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt DIVIDE" />
     <keyboard-shortcut first-keystroke="shift control DIVIDE" />
@@ -122,6 +130,7 @@
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="F10" second-keystroke="control D" />
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
@@ -186,8 +195,8 @@
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control T" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="F10" />
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control R" />
+    <keyboard-shortcut first-keystroke="shift F10" second-keystroke="control R" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control G" />

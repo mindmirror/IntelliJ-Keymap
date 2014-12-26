@@ -1,2 +1,3 @@
 :imap jj <Esc>
+inoremap <C-d> <Del>
 set showmode

@@ -40,7 +40,7 @@
     <keyboard-shortcut first-keystroke="control meta N" />
   </action>
   <action id=":plugin.actions.paredit/join">
-    <keyboard-shortcut first-keystroke="control meta S" />
+    <keyboard-shortcut first-keystroke="shift meta J" />
   </action>
   <action id=":plugin.actions.paredit/kill">
     <keyboard-shortcut first-keystroke="control K" />
@@ -138,6 +138,9 @@
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta J" />
   </action>
   <action id="EditorTab" />
   <action id="EmacsStyleIndent">

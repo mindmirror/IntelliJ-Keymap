@@ -66,7 +66,7 @@
     <keyboard-shortcut first-keystroke="shift control 0" />
   </action>
   <action id=":plugin.actions.paredit/splice">
-    <keyboard-shortcut first-keystroke="alt S" />
+    <keyboard-shortcut first-keystroke="control S" />
   </action>
   <action id=":plugin.actions.paredit/split">
     <keyboard-shortcut first-keystroke="shift meta S" />

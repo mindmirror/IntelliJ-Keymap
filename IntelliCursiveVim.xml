@@ -11,11 +11,9 @@
   </action>
   <action id=":plugin.actions.paredit/barf-backwards">
     <keyboard-shortcut first-keystroke="shift control OPEN_BRACKET" />
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
   </action>
   <action id=":plugin.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="shift control CLOSE_BRACKET" />
-    <keyboard-shortcut first-keystroke="control LEFT" />
   </action>
   <action id=":plugin.actions.paredit/close-curly-and-newline">
     <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
@@ -216,8 +214,16 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta N" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta RIGHT" />
+  </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control O" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="control meta LEFT" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control T" />

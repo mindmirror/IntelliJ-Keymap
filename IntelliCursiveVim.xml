@@ -219,10 +219,6 @@
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control O" />
   </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="F1" />
-    <mouse-shortcut keystroke="control button2" />
-  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control T" />
   </action>

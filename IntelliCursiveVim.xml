@@ -139,6 +139,12 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
   </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="TAB" />
+  </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta J" />
   </action>
@@ -148,6 +154,9 @@
   </action>
   <action id="ExportToTextFile">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control P" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="meta N" />
   </action>
   <action id="Git.Push">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta K" />
@@ -201,8 +210,15 @@
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta BACK_SPACE" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta N" />
+  </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control O" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="F1" />
+    <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control T" />

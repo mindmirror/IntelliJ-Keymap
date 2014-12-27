@@ -116,11 +116,11 @@
   </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="control alt D" />
-    <keyboard-shortcut first-keystroke="F9" />
+    <keyboard-shortcut first-keystroke="shift F9" />
   </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="control alt R" />
-    <keyboard-shortcut first-keystroke="shift F9" />
+    <keyboard-shortcut first-keystroke="shift F10" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt DIVIDE" />
@@ -134,7 +134,7 @@
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control D" />
-    <keyboard-shortcut first-keystroke="F10" second-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="F9" />
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
@@ -209,7 +209,7 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control R" />
-    <keyboard-shortcut first-keystroke="shift F10" second-keystroke="control R" />
+    <keyboard-shortcut first-keystroke="F10" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control G" />

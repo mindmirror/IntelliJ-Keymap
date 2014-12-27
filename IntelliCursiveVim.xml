@@ -148,6 +148,9 @@
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta J" />
   </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift control A" />
+  </action>
   <action id="EditorTab" />
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="TAB" />

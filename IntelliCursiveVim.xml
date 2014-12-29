@@ -238,6 +238,10 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt HOME" />
   </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta SEMICOLON" />
+    <keyboard-shortcut first-keystroke="alt DECIMAL" />
+  </action>
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta M" />
   </action>

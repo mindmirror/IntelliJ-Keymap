@@ -1,3 +1,11 @@
+" Key bindings
 :imap jj <Esc>
 inoremap <C-d> <Del>
+nnoremap <C-L> :nohlsearch<CR><C-L>
+
+" Options
 set showmode
+set hlsearch
+set ignorecase
+set smartcase
+

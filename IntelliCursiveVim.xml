@@ -241,6 +241,7 @@
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta SEMICOLON" />
     <keyboard-shortcut first-keystroke="alt DECIMAL" />
+    <keyboard-shortcut first-keystroke="alt PAGE_UP" />
   </action>
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="shift meta M" />
@@ -307,5 +308,6 @@
   </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt ADD" />
+    <keyboard-shortcut first-keystroke="alt PAGE_DOWN" />
   </action>
 </keymap>

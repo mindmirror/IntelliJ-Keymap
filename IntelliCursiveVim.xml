@@ -305,4 +305,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="control C" second-keystroke="control M" />
   </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="alt ADD" />
+  </action>
 </keymap>
